@@ -145,6 +145,13 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\face_rotating_2.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Resources\haarcascade_frontalface_default.xml" />
+    <Xml Include="Resources\right_profile_face.xml" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
